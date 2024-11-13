@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(206, 165, 111);
+  display: flex;
+  justify-content: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.productCard {
+  background-color: rgb(230, 214, 193);
+  border-radius: 10px;
+  width: 400px;
+  padding: 20px;
+}
+
+.productCard>h2 {
+  margin: 0px;
+  color: orangered;
+  text-align: center;
+}
+
+.productCard>img {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+  object-fit: contain;
+}
+
+.productCardInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.productCardInfo>p {
+  margin: 4px;
+}

@@ -1,0 +1,51 @@
+main {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.categoriesSection {
+  min-width: 200px;
+  width: 20vw;
+  background-color: red;
+}
+
+.productsSection {
+  min-width: 300px;
+  width: 30vw;
+  background-color: blue;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-content: start;
+  justify-content: left;
+}
+
+.productsSection > div {
+  background-color: lightblue;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.productsSection img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.productDetailsSection {
+  width: 40vw;
+  background-color: pink;
+}
+
+.productDetailsSection .images {
+  display: flex;
+  flex-direction: column;
+}
+
+.productDetailsSection .images > img {
+  width: 400px;
+  height: 400px;
+  object-fit: contain;
+}

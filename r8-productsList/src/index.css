@@ -1,0 +1,25 @@
+#mainContainer {
+  width: 80%;
+  min-height: 100px;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  display: flex;
+  margin: 20px auto;
+}
+
+#leftContainer {
+  width: 200px;
+  min-height: 10px;
+  margin-right: 200px;
+}
+
+#rightContainer {
+  width: 100%;
+  min-height: 10px;
+}
+
+.type {
+  background-color: aqua;
+  padding: 5px;
+  border-radius: 12px;
+}
